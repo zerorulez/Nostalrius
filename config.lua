@@ -27,15 +27,15 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Welcome to Nostalrius 4.5!"
+motd = "Seja bem-vindo ao Caravelus!"
 onePlayerOnlinePerAccount = true
 allowClones = false
-serverName = "RealOTS"
+serverName = "Caravelus"
 statusTimeout = 5000
 replaceKickOnLogin = true
 maxPacketsPerSecond = -1
 autoStackCumulatives = false
-moneyRate = 1
+moneyRate = 2
 
 -- Deaths
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
@@ -59,13 +59,13 @@ mapAuthor = "CipSoft"
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
 mysqlPass = ""
-mysqlDatabase = "nostalrius"
+mysqlDatabase = ""
 mysqlPort = 3306
 mysqlSock = ""
 
 -- Misc.
 allowChangeOutfit = true
-freePremium = false
+freePremium = true
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 showMonsterLoot = false
@@ -79,11 +79,11 @@ newbieLevelThreshold = 5
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 1
-rateSkill = 1
-rateLoot = 1
-rateMagic = 1
-rateSpawn = 0
+rateExp = 7
+rateSkill = 5
+rateLoot = 4
+rateMagic = 3
+rateSpawn = 80
 
 -- Monsters
 deSpawnRange = 2
@@ -102,5 +102,5 @@ startupDatabaseOptimization = true
 -- Status server information
 ownerName = ""
 ownerEmail = ""
-url = "https://otland.net/"
-location = "Sweden"
+url = "http://35.199.117.119"
+location = "Sao Paulo"

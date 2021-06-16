@@ -25,6 +25,7 @@
 		<immunity invisible="1" />
 	</immunities>
 	<voices>
+		<voice sentence="Anao e irmao." />
 		<voice sentence="Hail Durin!" />
 	</voices>
 	<loot>
