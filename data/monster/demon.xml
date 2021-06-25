@@ -51,7 +51,7 @@
 		<voice sentence="I SMELL FEEEEEAAAR!" yell="1" />
 		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1" />
 		<voice sentence="Your resistance is futile!" />
-		<voice sentence="Your soul will be mine!" yell="1" />
+		<voice sentence="EU NÃO VOU PARAR!" yell="1" />
 	</voices>
 	<loot>
 		<item id="3420" countmax="1" chance="7" /> <!-- a demon shield -->

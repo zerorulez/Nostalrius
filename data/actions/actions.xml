@@ -360,4 +360,8 @@
 	<action itemid="4911" script="misc/doors.lua" />
 	<action itemid="5085" script="misc/doors.lua" />
 	<action itemid="2180" script="misc/doors.lua" />
+
+	<action itemid="3031" script="misc/changegold.lua" />
+	<action itemid="3035" script="misc/changegold.lua" />
+	<action itemid="3043" script="misc/changegold.lua" />
 </actions>

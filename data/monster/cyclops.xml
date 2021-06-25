@@ -25,7 +25,8 @@
 		<voice sentence="Toks utat." />
 		<voice sentence="Human, uh whil dyh!" />
 		<voice sentence="Youh ah trak!" />
-		<voice sentence="Emerson Eduardo matou Rogerio Gaspar!" />
+		<voice sentence="Escreve essa porra direito!" />
+		<voice sentence="P-p-p-pessoas" />
 	</voices>
 	<loot>
 		<item id="3413" countmax="1" chance="15" /> <!-- a battle shield -->
