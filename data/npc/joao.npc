@@ -14,13 +14,14 @@ BUSY,"hi$",!       -> *
 BUSY,!             -> NOP
 VANISH,!           -> "Hail Dogola!.", Idle
 
-"bye"             -> "Hail Dogola!.", Idle
+"bye"             -> "Hail Dogola!", Idle
 "farewell"        -> "Yeah, farewell.", Idle
 "how","are","you" -> "Fine enough."
 "job"             -> "I am a trader."
 "name"            -> "My name is Joao das Coxinhas and i speak english for my family."
-"comprar","vender" -> "ENGLISH MOTHERFUCKER, DO YOU SPEAK IT?!?"
-"dogola"           -> "The false 'gods' of Tibia cannot deal with the mightness of the one true God Emperor Dog."
+"comprar"         -> "ENGLISH MOTHERFUCKER, DO YOU SPEAK IT?!?"
+"vender"         -> "ENGLISH MOTHERFUCKER, DO YOU SPEAK IT?!?"
+"dogola"          -> "The false 'gods' of Tibia cannot deal with the mightness of the one true God Emperor Dog."
 
 
 
