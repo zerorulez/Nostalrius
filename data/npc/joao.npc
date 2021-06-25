@@ -1,7 +1,7 @@
 
 Name = "Joao das Coxinhas"
 Outfit = (128,58-63-58-115)
-Home = [32047,32204,7]
+Home = [32274,32023,5]
 Radius = 2
 
 Behaviour = {
