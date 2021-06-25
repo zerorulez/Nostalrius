@@ -1,0 +1,126 @@
+
+Name = "Joao das Coxinhas"
+Outfit = (128,58-63-58-115)
+Home = [32047,32204,7]
+Radius = 2
+
+Behaviour = {
+ADDRESS,"hello$",! -> "Hiho %N."
+ADDRESS,"hi$",!    -> *
+ADDRESS,!          -> Idle
+BUSY,"hello$",!    -> "Nah, I am talking. Wait here.", Queue
+BUSY,"hi$",!       -> *
+BUSY,!             -> NOP
+VANISH,!           -> "You piece of shiet."
+
+"bye"             -> "Yeah, bye.", Idle
+"farewell"        -> "Yeah, farewell.", Idle
+"how","are","you" -> "Fine enough."
+"job"             -> "I am a trader."
+"name"            -> "My name is Joao das Coxinhas and i speak english for my family."
+
+"meat"   -> Type=3577, Amount=1, Price=5, "Do you want to buy meat for %P gold?", Topic=1
+%1,1<%1,"meat"   -> Type=3577, Amount=%1, Price=5*%1, "Do you want to buy %A meat for %P gold?", Topic=1
+
+"offer"  -> "I buy precious items. And sell meat."
+
+Topic=1,"yes",CountMoney>=Price -> "Here it is.", DeleteMoney, Create(Type)
+Topic=1,"yes"                   -> "I am sorry, but you do not have enough gold."
+Topic=1                         -> "Maybe later."
+
+
+
+
+
+
+
+"sell","dragon scale mail"     -> Type=3386, Amount=1,  Price=40000,  "So, you want to sell a dragon scale mail? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"dragon scale mail"     -> Type=3386, Amount=%1,  Price=40000*%1,  "So, you want to sell %A dragon scale mails? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","golden armor"     -> Type=3360, Amount=1,  Price=20000,  "So, you want to sell a golden armor? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"golden armor"     -> Type=3360, Amount=%1,  Price=20000*%1,  "So, you want to sell %A golden armors? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","magic plate armor"     -> Type=3366, Amount=1,  Price=90000,  "So, you want to sell a magic plate armor? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"magic plate armor"     -> Type=3366, Amount=%1,  Price=90000*%1,  "So, you want to sell %A magic plate armors? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","steel boots"     -> Type=3554, Amount=1,  Price=30000,  "So, you want to sell a steel boots? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"steel boots"     -> Type=3554, Amount=%1,  Price=30000*%1,  "So, you want to sell %A steel boots? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","devil helmet"     -> Type=3356, Amount=1,  Price=1000,  "So, you want to sell a devil helmet? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"devil helmet"     -> Type=3356, Amount=%1,  Price=1000*%1,  "So, you want to sell %A devil helmets? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","skull helmet"     -> Type=5741, Amount=1,  Price=40000,  "So, you want to sell a skull helmet? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"skull helmet"     -> Type=5741, Amount=%1,  Price=40000*%1,  "So, you want to sell %A skull helmets? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","ancient amulet"     -> Type=3025, Amount=1,  Price=200,  "So, you want to sell a ancient amulet? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"ancient amulet"     -> Type=3025, Amount=%1,  Price=200*%1,  "So, you want to sell %A ancient amulets? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","crystal necklace"     -> Type=3008, Amount=1,  Price=400,  "So, you want to sell a crystal necklace? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"crystal necklace"     -> Type=3008, Amount=%1,  Price=400*%1,  "So, you want to sell %A crystal necklaces? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","crystal ring"     -> Type=3007, Amount=1,  Price=250,  "So, you want to sell a crystal ring? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"crystal ring"     -> Type=3007, Amount=%1,  Price=250*%1,  "So, you want to sell %A crystal rings? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","gold ring"     -> Type=3063, Amount=1,  Price=8000,  "So, you want to sell a gold ring? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"gold ring"     -> Type=3063, Amount=%1,  Price=8000*%1,  "So, you want to sell %A gold rings? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","platinum amulet"     -> Type=3055, Amount=1,  Price=2500,  "So, you want to sell a platinum amulet? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"platinum amulet"     -> Type=3055, Amount=%1,  Price=2500*%1,  "So, you want to sell %A platinum amulets? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","ring of the sky"     -> Type=3006, Amount=1,  Price=30000,  "So, you want to sell a ring of the sky? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"ring of the sky"     -> Type=3006, Amount=%1,  Price=30000*%1,  "So, you want to sell %A rings of the sky? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","ruby necklace"     -> Type=3016, Amount=1,  Price=2000,  "So, you want to sell a ruby necklace? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"ruby necklace"     -> Type=3016, Amount=%1,  Price=2000*%1,  "So, you want to sell %A ruby necklaces? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","scarab amulet"     -> Type=3018, Amount=1,  Price=200,  "So, you want to sell a scarab amulet? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"scarab amulet"     -> Type=3018, Amount=%1,  Price=200*%1,  "So, you want to sell %A scarab amulets? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","silver brooch"     -> Type=3017, Amount=1,  Price=150,  "So, you want to sell a silver brooch? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"silver brooch"     -> Type=3017, Amount=%1,  Price=150*%1,  "So, you want to sell %A silver broochs? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","golden legs"     -> Type=3364, Amount=1,  Price=30000,  "So, you want to sell a golden legs? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"golden legs"     -> Type=3364, Amount=%1,  Price=30000*%1,  "So, you want to sell %A golden legs? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","doll"     -> Type=2991, Amount=1,  Price=200,  "So, you want to sell a doll? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"doll"     -> Type=2991, Amount=%1,  Price=200*%1,  "So, you want to sell %A dolls? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","bone shield"     -> Type=3441, Amount=1,  Price=80,  "So, you want to sell a bone shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"bone shield"     -> Type=3441, Amount=%1,  Price=80*%1,  "So, you want to sell %A bone shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","castle shield"     -> Type=3435, Amount=1,  Price=5000,  "So, you want to sell a castle shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"castle shield"     -> Type=3435, Amount=%1,  Price=5000*%1,  "So, you want to sell %A castle shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","dark shield"     -> Type=3421, Amount=1,  Price=400,  "So, you want to sell a dark shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"dark shield"     -> Type=3421, Amount=%1,  Price=400*%1,  "So, you want to sell %A dark shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","demon shield"     -> Type=3420, Amount=1,  Price=30000,  "So, you want to sell a demon shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"demon shield"     -> Type=3420, Amount=%1,  Price=30000*%1,  "So, you want to sell %A demon shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","griffin shield"     -> Type=3433, Amount=1,  Price=3000,  "So, you want to sell a griffin shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"griffin shield"     -> Type=3433, Amount=%1,  Price=3000*%1,  "So, you want to sell %A griffin shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","mastermind shield"     -> Type=3414, Amount=1,  Price=50000,  "So, you want to sell a mastermind shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"mastermind shield"     -> Type=3414, Amount=%1,  Price=50000*%1,  "So, you want to sell %A mastermind shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","medusa shield"     -> Type=3436, Amount=1,  Price=9000,  "So, you want to sell a medusa shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"medusa shield"     -> Type=3436, Amount=%1,  Price=9000*%1,  "So, you want to sell %A medusa shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","scarab shield"     -> Type=3440, Amount=1,  Price=2000,  "So, you want to sell a scarab shield? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"scarab shield"     -> Type=3440, Amount=%1,  Price=2000*%1,  "So, you want to sell %A scarab shields? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","daramian waraxe"     -> Type=3328, Amount=1,  Price=1000,  "So, you want to sell a daramian waraxe? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"daramian waraxe"     -> Type=3328, Amount=%1,  Price=1000*%1,  "So, you want to sell %A daramian waraxes? Hmm, I give you %P gold, ok?", Topic=2
+
+"sell","guardian halberd"     -> Type=3315, Amount=1,  Price=11000,  "So, you want to sell a guardian halberd? Hmm, I give you %P gold, ok?", Topic=2
+"sell",%1,1<%1,"guardian halberd"     -> Type=3315, Amount=%1,  Price=11000*%1,  "So, you want to sell %A guardian halberds? Hmm, I give you %P gold, ok?", Topic=2
+
+
+"sell"            -> "I only sell meat."
+"buy"             -> "I buy many good items."
+
+Topic=2,"yes",Count(Type)>=Amount -> "Here you are.", Delete(Type), CreateMoney
+Topic=2,"yes"                             -> "You don't have one."
+Topic=2,"no"                              -> "Then not."
+
+}
