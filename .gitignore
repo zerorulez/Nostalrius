@@ -2,13 +2,11 @@ vc14/.vs/theforgottenserver/v15/Browse.VC.db
 vc14/.vs/theforgottenserver/v15/ipch/ba8106b03bee8153.ipch
 *.lastbuildstate
 *.tlog
-vc14/.vs/theforgottenserver/v15/Browse.VC.opendb
 *.ipch
+vc14/.vs/theforgottenserver/v15/Browse.VC.opendb
 vc14/x64/
 *.exe
 vc14/theforgottenserver.vcxproj.user
 vc14/.vs/
 *.pdb
 *.dll
-build/
-config.lua.local

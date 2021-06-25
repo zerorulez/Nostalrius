@@ -25,8 +25,8 @@
 		<immunity invisible="1" />
 	</immunities>
 	<voices>
-		<voice sentence="Anao e irmao." />
 		<voice sentence="Hail Durin!" />
+		<voice sentence="Anao e irmao!" />
 	</voices>
 	<loot>
 		<item id="3092" countmax="1" chance="2" /> <!-- an axe ring -->

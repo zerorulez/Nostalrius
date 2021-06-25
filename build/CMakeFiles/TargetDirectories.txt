@@ -1,0 +1,6 @@
+/home/ribeirolucasdev/Nostalrius/build/CMakeFiles/rebuild_cache.dir
+/home/ribeirolucasdev/Nostalrius/build/CMakeFiles/edit_cache.dir
+/home/ribeirolucasdev/Nostalrius/build/CMakeFiles/clean_cotire.dir
+/home/ribeirolucasdev/Nostalrius/build/CMakeFiles/all_pch.dir
+/home/ribeirolucasdev/Nostalrius/build/CMakeFiles/tfs_pch.dir
+/home/ribeirolucasdev/Nostalrius/build/CMakeFiles/tfs.dir

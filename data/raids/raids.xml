@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raids>
-	<!-- <raid name="abdendrielbadgers" repeat="true" margin="60" interval2="600" file="abdendrielbadgers.xml"/>
+	<raid name="abdendrielbadgers" repeat="true" margin="60" interval2="600" file="abdendrielbadgers.xml"/>
 	<raid name="abdendrielwolfattack" repeat="true" margin="60" interval2="600" file="abdendrielwolfattack.xml"/>
 	<raid name="ankrahmunscarabinvasion" repeat="false" margin="60" interval2="600" file="ankrahmunscarabinvasion.xml"/>
 	<raid name="carlintowerorcs" repeat="true" margin="60" interval2="600" file="carlintowerorcs.xml"/>
@@ -35,5 +35,5 @@
 	<raid name="thaislighthouseorcs" repeat="true" margin="60" interval2="600" file="thaislighthouseorcs.xml"/>
 	<raid name="thaisorcinvasion" repeat="false" margin="60" interval2="600" file="thaisorcinvasion.xml"/>
 	<raid name="venoreelfinvasion" repeat="false" margin="60" interval2="600" file="venoreelfinvasion.xml"/>
-	<raid name="venoreswampelves" repeat="true" margin="60" interval2="600" file="venoreswampelves.xml"/> -->
+	<raid name="venoreswampelves" repeat="true" margin="60" interval2="600" file="venoreswampelves.xml"/>
 </raids>

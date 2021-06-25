@@ -7855,7 +7855,7 @@ Attributes  = {Weight=41000}
 TypeID      = 1781
 Name        = "a small stone"
 Flags       = {Cumulative,Take,Distance}
-Attributes  = {Weight=360,Range=7,Attack=10,Defense=0,MissileEffect=10,Fragility=7}
+Attributes  = {Weight=360,Range=7,Attack=10,Defense=0,MissileEffect=10,Fragility=0}
 
 TypeID      = 1782
 Name        = "a stone"
@@ -14791,7 +14791,7 @@ Attributes  = {Weight=3500,WeaponType=AXE,Attack=15,Defense=8}
 TypeID      = 3277
 Name        = "a spear"
 Flags       = {Cumulative,Take,Distance}
-Attributes  = {Weight=2000,Range=7,Attack=25,Defense=0,MissileEffect=1,Fragility=3}
+Attributes  = {Weight=2000,Range=7,Attack=25,Defense=0,MissileEffect=1,Fragility=0}
 
 TypeID      = 3278
 Name        = "a magic longsword"

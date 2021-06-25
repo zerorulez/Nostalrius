@@ -39,8 +39,7 @@
 	<voices>
 		<voice sentence="GROOAAARRR" yell="1" />
 		<voice sentence="FCHHHHH" yell="1" />
-		<voice sentence="Vou te deixar com a bunda em chamas!" yell="1" />
-		<voice sentence="O MOTIVO DAS CRECHES TEREM MUROS" yell="1" />
+                <voice sentence="O motivos das creches terem muros" yell="1" />
 	</voices>
 	<loot>
 		<item id="3301" countmax="1" chance="20" /> <!-- a broadsword -->
@@ -49,7 +48,7 @@
 		<item id="3275" countmax="1" chance="10" /> <!-- a double axe -->
 		<item id="3583" countmax="3" chance="450" /> <!-- dragon ham -->
 		<item id="3322" countmax="1" chance="5" /> <!-- a dragon hammer -->
-		<item id="3416" countmax="1" chance="4" /> <!-- a dragon shield -->
+		<item id="3416" countmax="1" chance="3" /> <!-- a dragon shield -->
 		<item id="3031" countmax="45" chance="800" /> <!-- a gold coin -->
 		<item id="3031" countmax="60" chance="500" /> <!-- a gold coin -->
 		<item id="3061" countmax="1" chance="1" /> <!-- a life crystal -->
