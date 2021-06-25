@@ -13,9 +13,11 @@ BUSY,"hi$",!       -> *
 BUSY,!             -> NOP
 VANISH,!           -> "You piece of shiet."
 
-"bye"             -> "Yeah, bye.", Idle
+"bye"             -> "Hail Dogola!.", Idle
 "farewell"        -> "Yeah, farewell.", Idle
 "how","are","you" -> "Fine enough."
+"comprar","vender","oi" -> "ENGLISH MOTHERFUCKER, DO YOU SPEAK IT?!?"
+"dogola"           -> "The false 'gods' of Tibia cannot deal with the mightness of the one true God Emperor Dog."
 "job"             -> "I am a trader."
 "name"            -> "My name is Joao das Coxinhas and i speak english for my family."
 
